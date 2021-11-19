@@ -8,7 +8,7 @@ namespace SeleniumWebDriver
 {
     public class WebDriverFactory
     {
-        public IWebDriver GetWebDriver(BrowserEnum browserEnum = BrowserEnum.FIREFOX)
+        public IWebDriver GetWebDriver(BrowserEnum browserEnum = BrowserEnum.EDGE)
         {
             IWebDriver driver;
             switch(browserEnum)
