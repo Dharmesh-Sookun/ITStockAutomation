@@ -1,9 +1,9 @@
 ﻿using FluentAssertions;
-using SeleniumDriver;
+using SeleniumWebDriver;
 using System;
 using TechTalk.SpecFlow;
 
-namespace SpecFlowProject1.Steps
+namespace ITStockSpecflow.Steps
 {
     [Binding]
     public class TS02SupplierSteps

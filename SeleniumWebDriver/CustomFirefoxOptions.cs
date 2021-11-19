@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace SeleniumDriver
+namespace SeleniumWebDriver
 {
     public class CustomFirefoxOptions
     {
