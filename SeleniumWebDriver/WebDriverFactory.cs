@@ -8,7 +8,7 @@ namespace SeleniumWebDriver
 {
     public class WebDriverFactory
     {
-        public IWebDriver GetWebDriver(BrowserEnum browserEnum = BrowserEnum.EDGE)
+        public IWebDriver GetWebDriver(BrowserEnum browserEnum = BrowserEnum.CHROME)
         {
             IWebDriver driver;
             switch(browserEnum)
